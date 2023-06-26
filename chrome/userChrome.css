@@ -1,0 +1,28 @@
+/* Adjust the tab, making it fit the text */
+.tabbrowser-tab {
+  -moz-window-dragging: drag;
+  margin: auto !important;
+  max-width: fit-content !important;
+}
+
+/* Adjust the tab's background to match the titlebar */
+.tab-background {
+  -moz-window-dragging: drag;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Hide a lot of things we're not going to use */
+#PersonalToolbar,
+.tab-close-button,
+.titlebar-spacer,
+#alltabs-button {
+  display: none;
+}
+
+/* Firefox won't load pages if you outright hide the navbar, so we're tricksy */
+#nav-bar {
+  position: absolute !important;
+  top: 100%;
+}
+
