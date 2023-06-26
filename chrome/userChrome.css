@@ -13,6 +13,7 @@
 }
 
 /* Hide a lot of things we're not going to use */
+#tab-notification-deck,
 #PersonalToolbar,
 .tab-close-button,
 .titlebar-spacer,
