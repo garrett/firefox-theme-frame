@@ -10,5 +10,9 @@ A simple Firefox theme that disables everything but the titlebar
 
 To test running things for the first time, do a `git clean -ffxd` to remove extra files.
 
+## Develop
+
+To customize this theme further, make sure you open up devtools in the browser toolbox mode. This has been enabled in `user.js` already. To activate it, use the keyboard combo `Shift`+`Ctrl`+`Alt`+`i`. (Yes, it's really this many keys.) Then, you can use the picker icon (next to the inspector tab) to select a part of the Firefox UI, which is made up of HTML + CSS.
+
 ## License
 Released under the public domain (CC0). Do with it as you wish.
