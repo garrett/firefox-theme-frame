@@ -15,6 +15,9 @@ user_pref("browser.startup.page", 0);
 user_pref("browser.startup.homepage", "about:blank");
 user_pref("browser.startup.homepage_override.once", {});
 
+// Don't use a window manager titlebar; use Firefox's built-in one
+user_pref("browser.tabs.inTitlebar", 1);
+
 // Hide the bookmarks
 user_pref("browser.toolbars.bookmarks.visibility", "never");
 
