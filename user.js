@@ -3,6 +3,8 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
 // New windows, not tabs
 user_pref("browser.link.open_newwindow", 2);
+user_pref("browser.link.open_newwindow.restriction", 1);
+user_pref("browser.link.open_newwindow.override.external", 2);
 
 // Dev stuff (for easier UI adusting with ctrl+shift+alt+i)
 user_pref("browser.aboutConfig.showWarning", false);
