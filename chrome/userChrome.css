@@ -17,6 +17,7 @@
 #PersonalToolbar,
 .tab-close-button,
 .titlebar-spacer,
+.titlebar-close,
 #alltabs-button {
   display: none;
 }
