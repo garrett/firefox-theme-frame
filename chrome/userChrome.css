@@ -18,7 +18,8 @@
 .tab-close-button,
 .titlebar-spacer,
 .titlebar-close,
-#alltabs-button {
+#alltabs-button,
+#statuspanel {
   display: none;
 }
 
@@ -27,4 +28,3 @@
   position: absolute !important;
   top: 100%;
 }
-
