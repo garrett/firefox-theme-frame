@@ -1,6 +1,9 @@
 // Let us use userChrome.css
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
+// We want to use :has()
+user_pref("layout.css.has-selector.enabled", true);
+
 // New windows, not tabs
 user_pref("browser.link.open_newwindow", 2);
 user_pref("browser.link.open_newwindow.restriction", 1);
@@ -17,8 +20,8 @@ user_pref("browser.startup.page", 0);
 user_pref("browser.startup.homepage", "about:blank");
 user_pref("browser.startup.homepage_override.once", {});
 
-// Don't use a window manager titlebar; use Firefox's built-in one
-user_pref("browser.tabs.inTitlebar", 1);
+// Use a window manager titlebar
+user_pref("browser.tabs.inTitlebar", 0);
 
 // Hide the bookmarks
 user_pref("browser.toolbars.bookmarks.visibility", "never");
